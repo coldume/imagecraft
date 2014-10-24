@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <!-- Main -->
+
+            <!-- Imagecraft\LayerPass\AbstractLayerPass -->
+            <trans-unit id="1">
+                <source>invalid.hex.color.%cp_invalid%.%example%</source>
+                <target>%cp_invalid% does not appear to be a valid hex color, here is an example: %example%.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>unexpected.argument.%cp_unexpected%.%expected%</source>
+                <target>Expects argument to be %expected%, but received %cp_unexpected%.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\LayerPass\BackgroundLayerPass -->
+            <trans-unit id="3">
+                <source>no.background.layer.added</source>
+                <target>You haven't added a background layer yet.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\LayerPass\ImageAwareLayerPass -->
+            <trans-unit id="4">
+                <source>no.image.added</source>
+                <target>You haven't added an image yet.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\LayerPass\TextLayerPass -->
+            <trans-unit id="5">
+                <source>no.font.added</source>
+                <target>You haven't added a font yet.</target>
+            </trans-unit>
+
+
+            <!-- PHP GD -->
+
+            <!-- Imagecraft\Engine\PhpGd\Helper\ResourceHelper -->
+            <trans-unit id="201">
+                <source>image.corrupted</source>
+                <target>The image file is corrputed and cannot be opened.</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>image.process.error</source>
+                <target>An error encountered while processing image.</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>text.adding.error</source>
+                <target>An error encountered while adding text to image.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\ImageInfo -->
+            <trans-unit id="204">
+                <source>unsupported.image.format.or.file.corrupted.%unsupported%.%supported%</source>
+                <target>The format %unsupported% is either not supported or the file is damaged. Server supports %supported%.</target>
+            </trans-unit>
+            <trans-unit id="205">
+                <source>unknown.image.format.or.file.corrupted.%supported%</source>
+                <target>The image is either in unknown format or corrupted. Server supports %supported%.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\EventListener\TextLayerListener -->
+            <trans-unit id="206">
+                <source>adding.text.not.supported</source>
+                <target>Adding text to image is not supported by server.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\EventListener\SystemRequirementListener -->
+            <trans-unit id="207">
+                <source>gd.extension.not.enabled</source>
+                <target>PHP GD extension is not enabled.</target>
+            </trans-unit>
+            <trans-unit id="208">
+                <source>output.image.format.not.supported.%cp_unsupported%</source>
+                <target>The output image format %cp_unsupported% is not supported.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\EventListener\MemoryRequirementListener -->
+            <trans-unit id="209">
+                <source>output.image.dimensions.exceed.limit.%cp_dimensions%</source>
+                <target>The output image dimensions (%cp_dimensions%) is bigger than the server allows.</target>
+            </trans-unit>
+            <trans-unit id="210">
+                <source>image.dimensions.exceed.limit.%cp_dimensions%</source>
+                <target>The image dimensions (%cp_dimensions%) exceed the server allowable limit.</target>
+            </trans-unit>
+            <trans-unit id="211">
+                <source>not.enough.memory.to.process.image</source>
+                <target>There is not enough memory to process the image.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Gif\GifExtractor -->
+            <trans-unit id="212">
+                <source>gif.parse.error</source>
+                <target>An error occured while parsing GIF file.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Gif\EventListener\GifExtractorListener -->
+            <!-- Imagecraft\Engine\PhpGd\Extension\Gif\EventListener\ImageFactoryListener -->
+            <trans-unit id="213">
+                <source>gif.animation.may.lost.due.to.corrupted.frame.data</source>
+                <target>GIF animation may be lost. The frame data may be damaged or corrupted.</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Gif\EventListener\MemoryRequirementListener -->
+            <trans-unit id="339">
+                <source>gif.animation.may.lost.as.too.many.frames.or.dimensions.too.large.%total_frames%.%dimensions%</source>
+                <target>GIF animation may be lost, as it either has too many frames (%total_frames%) or dimensions (%dimensions%) are too large.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <!-- Main -->
+
+            <!-- Imagecraft\LayerPass\AbstractLayerPass -->
+            <trans-unit id="1">
+                <source>invalid.hex.color.%cp_invalid%.%example%</source>
+                <target>%cp_invalid% 不是一个正确的十六进制颜色，正确的格式如：%example%。</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>unexpected.argument.%cp_unexpected%.%expected%</source>
+                <target>未知参数 %cp_unexpected%，正确的有 %expected%。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\LayerPass\BackgroundLayerPass -->
+            <trans-unit id="3">
+                <source>no.background.layer.added</source>
+                <target>您还未添加背景图层。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\LayerPass\ImageAwareLayerPass -->
+            <trans-unit id="4">
+                <source>no.image.added</source>
+                <target>您还未为图层添加图片文件。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\LayerPass\TextLayerPass -->
+            <trans-unit id="5">
+                <source>no.font.added</source>
+                <target>您还未为图层添加字体文件。</target>
+            </trans-unit>
+
+
+            <!-- PHP GD -->
+
+            <!-- Imagecraft\Engine\PhpGd\Helper\ResourceHelper -->
+            <trans-unit id="201">
+                <source>image.corrupted</source>
+                <target>图片文件已损坏，请尝试上传一张新的图片。</target>
+            </trans-unit>
+            <trans-unit id="202">
+                <source>image.process.error</source>
+                <target>处理图片时发生错误</target>
+            </trans-unit>
+            <trans-unit id="203">
+                <source>text.adding.error</source>
+                <target>写入文字时发生错误。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\ImageInfo -->
+            <trans-unit id="204">
+                <source>unsupported.image.format.or.file.corrupted.%unsupported%.%supported%</source>
+                <target>%unsupported% 格式不被支持或文件已损坏，服务器支持的图片格式有：%supported%。</target>
+            </trans-unit>
+            <trans-unit id="205">
+                <source>unknown.image.format.or.file.corrupted.%supported%</source>
+                <target>图片格式未知或文件已损坏。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\EventListener\TextLayerListener -->
+            <trans-unit id="206">
+                <source>adding.text.not.supported</source>
+                <target>添加文字功能不支持。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\EventListener\SystemRequirementListener -->
+            <trans-unit id="207">
+                <source>gd.extension.not.enabled</source>
+                <target>PHP GD 扩展还未开启。</target>
+            </trans-unit>
+            <trans-unit id="208">
+                <source>output.image.format.not.supported.%cp_unsupported%</source>
+                <target>输出的图片格式 %cp_unsupported% 无法支持。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\EventListener\MemoryRequirementListener -->
+            <trans-unit id="209">
+                <source>output.image.dimensions.exceed.limit.%cp_dimensions%</source>
+                <target>输出的图片尺寸 (%cp_dimensions%) 超出服务器可承受范围。</target>
+            </trans-unit>
+            <trans-unit id="210">
+                <source>image.dimensions.exceed.limit.%cp_dimensions%</source>
+                <target>图片尺寸 (%cp_dimensions%) 超出服务器可承受范围。</target>
+            </trans-unit>
+            <trans-unit id="211">
+                <source>not.enough.memory.to.process.image</source>
+                <target>没有足够的内存来处理您的图片。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Gif\GifExtractor -->
+            <trans-unit id="212">
+                <source>gif.parse.error</source>
+                <target>解析 GIF 文件时发生错误。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Gif\EventListener\GifExtractorListener -->
+            <!-- Imagecraft\Engine\PhpGd\Extension\Gif\EventListener\ImageFactoryListener -->
+            <trans-unit id="213">
+                <source>gif.animation.may.lost.due.to.corrupted.frame.data</source>
+                <target>GIF 动态效果丢失。文件已损坏或数据丢失。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Gif\EventListener\MemoryRequirementListener -->
+            <trans-unit id="339">
+                <source>gif.animation.may.lost.as.too.many.frames.or.dimensions.too.large.%total_frames%.%dimensions%</source>
+                <target>GIF 动态效果丢失，原因为帧数 (%total_frames%) 太多或图片尺寸 (%dimensions%) 太大。</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

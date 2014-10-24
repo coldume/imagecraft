@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <!-- Main -->
+
+            <!-- Imagecraft\ImageBuilder -->
+            <trans-unit id="1">
+                <source>no.background.layer</source>
+                <target>還未添加背景圖層。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Layer\LayerPass\AbstractLayerPass -->
+            <trans-unit id="2">
+                <source>invalid.hex.color.%invalid_color%.%example_color%</source>
+                <target>您輸入的顏色 %invalid_color% 不是一個合法的十六進制顏色，正確的格式如： %example_color%。</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>unexpected.argument.%unexpected_argument%.%expected_arguments%</source>
+                <target>未知參數 %unexpected_argument%, 請從以下選擇一個可用的參數: %expected_arguments%。</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>file.not.found.%filename%</source>
+                <target>無法找到文件 %filename%。</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>file.access.denied.%filename%</source>
+                <target>您沒有權限打開文件 %filename%。</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>url.fopen.not.enabled</source>
+                <target>服務器不支持 URL 打開文件。</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>malformed.url.%url%</source>
+                <target>您輸入的 URL %url% 格式不正確。</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>url.resource.not.found.%url%</source>
+                <target>無法從 URL %url% 獲取資源。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Layer\LayerPass\ImageAwareLayerPass -->
+            <trans-unit id="9">
+                <source>no.image.added</source>
+                <target>您還未添加圖片文件。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Layer\LayerPass\TextLayerPass -->
+            <trans-unit id="10">
+                <source>no.font.added</source>
+                <target>您還未添加字體文件。</target>
+            </trans-unit>
+
+
+            <!-- PHP GD -->
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\ResolvedLayer\ResolvedLayerPass\ResolvedImageAwareLayerPass -->
+            <trans-unit id="200">
+                <source>unsupported.image.format.%unsupported_format%.%supported_formats%</source>
+                <target>圖片格式 %unsupported_format% 不支持，支持的格式有：%supported_formats%。</target>
+            </trans-unit>
+            <trans-unit id="201">
+                <source>unknown.image.format.or.file.corrupted.%supported_formats%</source>
+                <target>文件格式未知或者文件已損壞，服務器支持的圖片格式有：%supported_formats%。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\ResolvedLayer\ResolvedLayerPass\ResolvedTextLayerPass -->
+            <trans-unit id="202">
+                <source>text.not.supported</source>
+                <target>服務器不支持寫入文字。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\EventListener\CheckMinimumRequirementListener -->
+            <trans-unit id="203">
+                <source>gd.extension.not.enabled</source>
+                <target>PHP GD 擴展還未安裝或啟動。</target>
+            </trans-unit>
+            <trans-unit id="204">
+                <source>saved.image.format.not.supported.%format%</source>
+                <target>保存的圖片格式 %format% 不支持。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\Core\AbstractImageFactory -->
+            <trans-unit id="205">
+                <source>image.corrupted</source>
+                <target>圖片文件以損壞。</target>
+            </trans-unit>
+            <trans-unit id="206">
+                <source>processing.image.error</source>
+                <target>無法處理圖片。</target>
+            </trans-unit>
+            <trans-unit id="207">
+                <source>writing.text.error.%valid_font%</source>
+                <target>寫入文字時發生錯誤，原因可能為您所使用的字體文件不被支持。服務器支持的字體文件格式有：%valid_font%。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\GifAnimation\GifExtractor -->
+            <!-- Imagecraft\Engine\PhpGd\Extension\GifAnimation\GifImageFactory -->
+            <trans-unit id="208">
+                <source>gif.animation.lost.one.or.more.frames.corrupted</source>
+                <target>GIF 動態效果丟失，原因為一個或多個幀的數據已損壞。</target>
+            </trans-unit>
+            <trans-unit id="209">
+                <source>not.animated.gif</source>
+                <target>非動態GIF。</target>
+            </trans-unit>
+
+            <!-- Imagecraft\Engine\PhpGd\Extension\GifAnimation\GifImageFactory -->
+            <trans-unit id="210">
+                <source>gif.animation.lost.too.many.frames.or.dimension.too.large.%frames%.%width%.%height%</source>
+                <target>GIF 動態效果丟失，原因為帧數太多(%frames%) 或尺寸太大(%width% x %height%)。</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

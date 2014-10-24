@@ -1,0 +1,553 @@
+Header: "GIF89a"
+Logical Screen Descriptor:
+	Logical Screen Width: 339 pixels
+	Logical Screen Height: 473 pixels
+	Global Color Table Flag: True
+	Color Resolution: 8 bits
+	Sort Flag: False
+	Size of Global Color Table: 256 colors
+	Background Color Index: 53
+Global Color Table:
+	Color 0: Red 202, Green 53, Blue 43, #ca352b
+	Color 1: Red 163, Green 189, Blue 213, #a3bdd5
+	Color 2: Red 245, Green 255, Blue 255, #f5ffff
+	Color 3: Red 255, Green 254, Blue 92, #fffe5c
+	Color 4: Red 201, Green 130, Blue 54, #c98236
+	Color 5: Red 17, Green 29, Blue 48, #111d30
+	Color 6: Red 7, Green 13, Blue 23, #070d17
+	Color 7: Red 201, Green 85, Blue 80, #c95550
+	Color 8: Red 0, Green 13, Blue 24, #000d18
+	Color 9: Red 227, Green 74, Blue 69, #e34a45
+	Color 10: Red 37, Green 50, Blue 79, #25324f
+	Color 11: Red 88, Green 116, Blue 156, #58749c
+	Color 12: Red 155, Green 57, Blue 50, #9b3932
+	Color 13: Red 99, Green 17, Blue 6, #631106
+	Color 14: Red 10, Green 28, Blue 40, #0a1c28
+	Color 15: Red 36, Green 59, Blue 101, #243b65
+	Color 16: Red 116, Green 87, Blue 20, #745714
+	Color 17: Red 236, Green 193, Blue 73, #ecc149
+	Color 18: Red 26, Green 34, Blue 43, #1a222b
+	Color 19: Red 255, Green 254, Blue 252, #fffefc
+	Color 20: Red 0, Green 2, Blue 12, #00020c
+	Color 21: Red 240, Green 176, Blue 153, #f0b099
+	Color 22: Red 0, Green 4, Blue 9, #000409
+	Color 23: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 24: Red 94, Green 28, Blue 22, #5e1c16
+	Color 25: Red 244, Green 136, Blue 138, #f4888a
+	Color 26: Red 255, Green 225, Blue 206, #ffe1ce
+	Color 27: Red 27, Green 9, Blue 4, #1b0904
+	Color 28: Red 169, Green 123, Blue 100, #a97b64
+	Color 29: Red 38, Green 51, Blue 34, #263322
+	Color 30: Red 184, Green 194, Blue 181, #b8c2b5
+	Color 31: Red 247, Green 251, Blue 246, #f7fbf6
+	Color 32: Red 64, Green 46, Blue 33, #402e21
+	Color 33: Red 255, Green 255, Blue 255, #ffffff (white, gray100, grey100)
+	Color 34: Red 255, Green 171, Blue 172, #ffabac
+	Color 35: Red 171, Green 49, Blue 0, #ab3100
+	Color 36: Red 21, Green 11, Blue 1, #150b01
+	Color 37: Red 248, Green 48, Blue 0, #f83000
+	Color 38: Red 126, Green 141, Blue 123, #7e8d7b
+	Color 39: Red 243, Green 123, Blue 114, #f37b72
+	Color 40: Red 194, Green 210, Blue 212, #c2d2d4
+	Color 41: Red 138, Green 41, Blue 0, #8a2900
+	Color 42: Red 117, Green 41, Blue 0, #752900
+	Color 43: Red 245, Green 254, Blue 255, #f5feff
+	Color 44: Red 62, Green 11, Blue 6, #3e0b06
+	Color 45: Red 139, Green 159, Blue 153, #8b9f99
+	Color 46: Red 255, Green 154, Blue 145, #ff9a91
+	Color 47: Red 185, Green 196, Blue 202, #b9c4ca
+	Color 48: Red 160, Green 61, Blue 67, #a03d43
+	Color 49: Red 41, Green 49, Blue 75, #29314b
+	Color 50: Red 62, Green 78, Blue 89, #3e4e59
+	Color 51: Red 46, Green 63, Blue 85, #2e3f55
+	Color 52: Red 114, Green 39, Blue 6, #722706
+	Color 53: Red 255, Green 255, Blue 255, #ffffff (white, gray100, grey100)
+	Color 54: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 55: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 56: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 57: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 58: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 59: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 60: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 61: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 62: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 63: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 64: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 65: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 66: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 67: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 68: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 69: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 70: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 71: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 72: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 73: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 74: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 75: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 76: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 77: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 78: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 79: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 80: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 81: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 82: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 83: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 84: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 85: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 86: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 87: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 88: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 89: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 90: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 91: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 92: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 93: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 94: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 95: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 96: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 97: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 98: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 99: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 100: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 101: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 102: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 103: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 104: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 105: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 106: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 107: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 108: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 109: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 110: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 111: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 112: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 113: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 114: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 115: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 116: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 117: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 118: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 119: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 120: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 121: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 122: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 123: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 124: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 125: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 126: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 127: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 128: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 129: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 130: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 131: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 132: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 133: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 134: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 135: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 136: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 137: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 138: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 139: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 140: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 141: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 142: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 143: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 144: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 145: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 146: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 147: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 148: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 149: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 150: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 151: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 152: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 153: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 154: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 155: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 156: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 157: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 158: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 159: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 160: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 161: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 162: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 163: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 164: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 165: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 166: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 167: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 168: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 169: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 170: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 171: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 172: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 173: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 174: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 175: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 176: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 177: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 178: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 179: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 180: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 181: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 182: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 183: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 184: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 185: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 186: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 187: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 188: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 189: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 190: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 191: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 192: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 193: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 194: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 195: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 196: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 197: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 198: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 199: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 200: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 201: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 202: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 203: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 204: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 205: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 206: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 207: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 208: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 209: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 210: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 211: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 212: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 213: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 214: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 215: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 216: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 217: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 218: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 219: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 220: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 221: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 222: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 223: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 224: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 225: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 226: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 227: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 228: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 229: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 230: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 231: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 232: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 233: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 234: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 235: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 236: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 237: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 238: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 239: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 240: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 241: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 242: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 243: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 244: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 245: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 246: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 247: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 248: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 249: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 250: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 251: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 252: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 253: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 254: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+	Color 255: Red 0, Green 0, Blue 0, #000000 (black, gray0, grey0)
+Application Extension
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 1 (do not dispose)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Graphic Control Extension:
+	Disposal Method: 5 (to be defined)
+	User Input Flag: False
+	Transparent Color Flag: True
+	Delay Time: 10
+	Transparent Color Index: 53
+Image Descriptor:
+	Image Left Position: 0 pixels
+	Image Top Position: 0 pixels
+	Image Width: 339 pixels
+	Image Height: 473 pixels
+	Local Color Table Flag: False
+	Interlace Flag: False
+Table Based Image Data:
+	LZW Minimum Code Size: 0x08
+Trailer

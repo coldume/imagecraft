@@ -1,0 +1,33 @@
+{
+    "name": "coldume/imagecraft",
+    "type": "library",
+    "keywords": ["gd", "image", "animation", "resize", "thumbnail", "watermark"],
+    "description": "A reliable and extensible PHP image manipulation library",
+    "license": "MIT",
+    "homepage": "https://github.com/coldume/imagecraft",
+    "authors": [
+        {
+            "name": "Xianghan Wang",
+            "email": "coldume@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "coldume/imc-stream": "~1.0",
+        "coldume/translated-exception": "~1.0",
+        "symfony/event-dispatcher": "~2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imagecraft\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.1.x-dev"
+        }
+    }
+}
