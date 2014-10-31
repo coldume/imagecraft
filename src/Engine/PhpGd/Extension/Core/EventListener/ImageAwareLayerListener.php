@@ -66,6 +66,7 @@ class ImageAwareLayerListener implements EventSubscriberInterface
             if (!($layer instanceof ImageAwareLayerInterface)) {
                 continue;
             }
+            $arr = false;
             if ($layer->has('image.http.url')) {
                 $arr = [
                     'uri'        => $layer->get('image.http.url'),
@@ -80,8 +81,10 @@ class ImageAwareLayerListener implements EventSubscriberInterface
                     'seek' => true
                 ];
             }
-            $uri = 'imc://'.serialize($arr);
-            $layer->set('image.imc_uri', $uri);
+            if ($arr) {
+                $uri = 'imc://'.serialize($arr);
+                $layer->set('image.imc_uri', $uri);
+            }
         }
     }
 
