@@ -144,7 +144,7 @@ if ($image->isValid()) {
 | `jpeg_quality`    | `100`     | `[0, 100]`      | quality of the JPEG image             |
 | `png_compression` | `100`     | `[0, 100]`      | compression level of the PNG image    |
 | `memory_limit`    | `-10`     | `[-∞, ∞]`       | maximum memory to use in MB           |
-| `gif_animation`   | `true`    | `ture, false`   | whether to maintain the GIF animation |
+| `gif_animation`   | `true`    | `true, false`   | whether to maintain the GIF animation |
 | `output_format`   | `default` | `jpeg, png, ..` | output image format                   |
 
 ### Layers
