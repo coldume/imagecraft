@@ -255,7 +255,48 @@ class ResourceHelper
 
         return $dstResource;
     }
-
+    
+    /**
+     * Flip the image
+     * @param  resource $srcResource the image resource
+     * @param  int      $mode flip mode
+     * @return resource the flipped resource
+     */
+    public function getFlippedGdResource($srcResource, $mode) {
+        imageflip($srcResource, $mode);
+        return $srcResource;
+    }
+    
+    /**
+     * Rotate the image with the given degress
+     * @param  resource $srcResource the image resource
+     * @param  float    $angle angle of rotation in degress, counter-clockwise
+     * @param  null,array $bgColor color of the uncovered area
+     * @return resource the rotated
+     */
+    public function getRotatedGdResource($srcResource, $angle, $bgColor = null) {
+        if ($bgColor) {
+            $bgColor = imagecolorallocate($resource, $bgColor[0], $bgColor[1], $bgColor[2]);
+        } else {
+            $bgColor = 0;
+        }
+        $dstResource = imagerotate($srcResource, $angle, $bgColor);
+        imagedestroy($srcResource);
+        return $dstResource;
+    }
+	
+	/**
+     * Set image opacity
+     * @param  resource $srcResource the image resource
+     * @param  int      $opacity opacity level
+     * @return resource with alpha channel
+     */
+    public function getOpacityGdResource($srcResource, $opacity) {
+        imagesavealpha( $srcResource, true );
+		imagefill( $srcResource, 0, 0, imagecolorallocatealpha( $srcResource, 0, 0, 0, 127 ) );
+        return $srcResource;
+    }
+	
     /**
      * @param  resource $dstResource
      * @param  resource $srcResource
@@ -269,7 +310,8 @@ class ResourceHelper
         $srcResource,
         $x = 0,
         $y = 0,
-        $gravity = RegularLayerInterface::MOVE_TOP_LEFT
+        $gravity = RegularLayerInterface::MOVE_TOP_LEFT,
+		$opacity = 100
     ) {
         $dstWidth  = imagesx($dstResource);
         $dstHeight = imagesy($dstResource);
@@ -346,7 +388,9 @@ class ResourceHelper
             imagedestroy($dstResource);
             $dstResource = $resource;
         }
-        imagecopy($dstResource, $srcResource, $dstX, $dstY, $srcX, $srcY, $srcW, $srcH);
+        $opacity = is_null( $opacity ) ? 100 : $opacity;
+		
+		imagecopymerge($dstResource, $srcResource, $dstX, $dstY, $srcX, $srcY, $srcW, $srcH, $opacity);
 
         return $dstResource;
     }
