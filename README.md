@@ -1,6 +1,6 @@
 # Imagecraft
 
-[![Build Status](https://travis-ci.org/coldume/imagecraft.svg?branch=develop)](https://travis-ci.org/coldume/imagecraft)
+[![Build Status](https://travis-ci.org/coldume/imagecraft.svg)](https://travis-ci.org/coldume/imagecraft)
 
 Imagecraft is a reliable and extensible PHP image manipulation library. It can
 edit and compose images in multiple layers and supports watermark, resize and
