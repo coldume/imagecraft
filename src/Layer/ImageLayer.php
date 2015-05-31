@@ -58,6 +58,27 @@ class ImageLayer extends AbstractLayer implements ImageLayerInterface
 
     /**
      * @inheritDoc
+     * @param int $mode one of the IMG_FLIP_ constants
+     */
+    public function flip($mode)
+    {
+        $this->add(['image.flip' => $mode]);
+        return $this;
+    }
+
+    /**
+     * @inheritDoc
+     * @param int $opacity level of opacity
+     */
+    public function opacity($opacity)
+    {
+        $this->add(['image.opacity' => $opacity]);
+        
+		return $this;
+    }
+
+    /**
+     * @inheritDoc
      */
     public function move($x, $y, $gravity = RegularLayerInterface::MOVE_TOP_LEFT)
     {
@@ -67,6 +88,20 @@ class ImageLayer extends AbstractLayer implements ImageLayerInterface
             'regular.move.gravity' => $gravity,
         ]);
 
+        return $this;
+    }
+
+	/**
+     * @inheritDoc
+     * @param int $angle angle of rotation
+     * @param null|array color of uncovered pixels
+     */
+    public function rotate($angle, $bgColor = null)
+    {
+        $this->add(['image.rotate.angle' => $angle]);
+        if ($bgColor) {
+            $this->add(['image.rotate.bgcolor' => $bgColor]);
+        }
         return $this;
     }
 }
