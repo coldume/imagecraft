@@ -61,7 +61,18 @@ class TextLayer extends AbstractLayer implements TextLayerInterface
 
         return $this;
     }
-
+	
+    /**
+     * @inheritDoc
+     * @param int $opacity level of opacity
+     */
+    public function opacity($opacity)
+    {
+        $this->add(['image.opacity' => $opacity]);
+        
+		return $this;
+    }
+	
     /**
      * @inheritDoc
      */

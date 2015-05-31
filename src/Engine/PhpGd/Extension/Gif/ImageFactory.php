@@ -207,6 +207,14 @@ class ImageFactory
         } else {
             $contents = $layer->get('image.contents');
             $resource = $this->rh->getGdResourceFromContents($format, $contents, true);
+        }        
+		
+		if ($layer->has('image.rotate.angle')) {
+            $resource = $this->rh->getRotatedGdResource(
+                $resource,
+                $layer->get('image.rotate.angle'),
+                $layer->get('image.rotate.bgcolor')
+            );
         }
 
         if ($layer->has('image.resize.width')) {
@@ -217,6 +225,14 @@ class ImageFactory
                 $layer->get('image.resize.option'),
                 true
             );
+        }
+		
+		if ($layer->has('image.flip')) {
+            $resource = $this->rh->getFlippedGdResource($resource, $layer->get('image.flip'));
+        }
+
+		if ($layer->has('image.opacity')) {
+            $resource = $this->rh->getOpacityGdResource($resource, $layer->get('image.opacity'));
         }
 
         $layer->set('final.resource', $resource);
@@ -308,7 +324,16 @@ class ImageFactory
      */
     protected function renderFrameResource(BackgroundLayerInterface $layer)
     {
-        if ($layer->has('image.resize.width')) {
+        if ($layer->has('image.rotate.angle')) {
+            $resource = $this->rh->getRotatedGdResource(
+                $layer->get('gif.frame_resource'),
+                $layer->get('image.rotate.angle'),
+                $layer->get('image.rotate.bgcolor')
+            );
+            $layer->set('gif.frame_resource', $resource);
+        }
+		
+		if ($layer->has('image.resize.width')) {
             $resource = $this->rh->getResizedGdResource(
                 $layer->get('gif.frame_resource'),
                 $layer->get('image.resize.width'),
@@ -317,6 +342,16 @@ class ImageFactory
                 $layer->get('gif.quality')
             );
             $layer->set('gif.frame_resource', $resource);
+        }
+		
+		if ($layer->has('image.flip')) {
+            $resource = $this->rh->getFlippedGdResource($layer->get('gif.frame_resource'), $layer->get('image.flip'));
+            $layer->set('gif.frame_resource', $resource);
+        }
+		
+		if ($layer->has('image.opacity')) {
+            $resource = $this->rh->getOpacityGdResource($layer->get('gif.frame_resource'), $layer->get('image.opacity'));
+			$layer->set('gif.frame_resource', $resource);
         }
     }
 

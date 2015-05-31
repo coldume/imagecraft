@@ -63,7 +63,8 @@ class ImageFactory
                     $layer->get('final.resource'),
                     $layer->get('regular.move.x'),
                     $layer->get('regular.move.y'),
-                    $layer->get('regular.move.gravity')
+                    $layer->get('regular.move.gravity'),
+                    $layer->get('image.opacity')
                 );
                 imagedestroy($layer->get('final.resource'));
                 $layers[0]->set('final.resource', $resource);
@@ -93,7 +94,15 @@ class ImageFactory
             $contents = $layer->get('image.contents');
             $resource = $this->rh->getGdResourceFromContents($format, $contents, true);
         }
-
+		
+		if ($layer->has('image.rotate.angle')) {
+            $resource = $this->rh->getRotatedGdResource(
+                $resource,
+                $layer->get('image.rotate.angle'),
+                $layer->get('image.rotate.bgcolor')
+            );
+        }
+		
         if ($layer->has('image.resize.width')) {
             $resource = $this->rh->getResizedGdResource(
                 $resource,
@@ -103,7 +112,15 @@ class ImageFactory
                 true
             );
         }
-
+        
+        if ($layer->has('image.flip')) {
+            $resource = $this->rh->getFlippedGdResource($resource, $layer->get('image.flip'));
+        }
+		
+		if ($layer->has('image.opacity')) {
+            $resource = $this->rh->getOpacityGdResource($resource, $layer->get('image.opacity'));
+        }
+		
         $layer->set('final.resource', $resource);
     }
 
