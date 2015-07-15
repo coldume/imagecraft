@@ -192,9 +192,11 @@ class ImageInfo
                 } else {
                     $length = fread($fp, 2);
                     $length = unpack('n', $length)[1];
-                    $remainder = $length % 1024;
-                    fread($fp, $remainder - 2);
-                    $quotient = floor($length / 1024);
+                    $remainder = ($length - 2) % 1024;
+                    if ($remainder > 0) {
+                        fread($fp, $remainder);
+                    }
+                    $quotient = floor(($length - 2) / 1024);
                     if ($quotient) {
                         for ($i = 0; $i < $quotient; $i++) {
                             fread($fp, 1024);
