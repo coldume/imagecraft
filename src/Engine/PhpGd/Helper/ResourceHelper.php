@@ -21,7 +21,7 @@ class ResourceHelper
      */
     public function getEmptyGdResource($width, $height)
     {
-        $resource = imagecreatetruecolor($width, $height);
+        $resource = imagecreate($width, $height);
         imagesavealpha($resource, true);
         imagealphablending($resource, true);
         $trans = imagecolorallocatealpha($resource, 255, 255, 255, 127);
