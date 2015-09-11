@@ -30,7 +30,7 @@ Imagecraft, simply add a dependency to your project's composer.json file:
 }
 ````
 
-Or, you can install from an archive file: [imagecraft.zip](https://drive.google.com/open?id=0B5ruhRHby-kbQlVzcHN3TFhNNzQ)
+Or, you can install from an archive file: [imagecraft_1.0.4.zip](https://docs.google.com/uc?id=0B5ruhRHby-kbQlVzcHN3TFhNNzQ&export=download)
 
 ## Usage
 
