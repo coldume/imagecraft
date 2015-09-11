@@ -30,7 +30,7 @@ Imagecraft, simply add a dependency to your project's composer.json file:
 }
 ````
 
-Or, you can install from an archive file: [imagecraft.zip](http://www.imagecraft.cc/web/archive/imagecraft.zip)
+Or, you can install from an archive file: [imagecraft.zip](https://drive.google.com/open?id=0B5ruhRHby-kbQlVzcHN3TFhNNzQ)
 
 ## Usage
 
@@ -54,8 +54,8 @@ if (!$context->isEngineSupported()) {
 
 ### Build an Image in Fluent Pattern
 
-1.  Client uploads an [image](http://www.imagecraft.cc/web/images/pikachu.gif) from URL.
-2.  Server performs resize and [watermark](http://www.imagecraft.cc/web/images/pikachu_what_to_do_logo_by_mnrart-d5h998b.png) operations.
+1.  Client uploads an [image](https://cloud.githubusercontent.com/assets/5236124/9806426/4b49fe20-5812-11e5-8a44-bdbdfff2787a.gif) from URL.
+2.  Server performs resize and [watermark](https://cloud.githubusercontent.com/assets/5236124/9806423/4b465d4c-5812-11e5-8dc9-f0f7257e7cda.png) operations.
 5.  Server returns a message in English if an error occured, such as data size
     exceeds allowable limit (2MB), timeout expired (20s), file not found, etc.
 
@@ -82,12 +82,12 @@ if ($image->isValid()) {
 }
 ````
 
-![Fluent Pattern Output](http://imagecraft.cc/web/images/fluent_pattern.php)
+![Fluent Pattern Output](https://cloud.githubusercontent.com/assets/5236124/9806425/4b49d224-5812-11e5-92d6-2f3514ebd660.gif)
 
 ### Build an Image in Classic Pattern
 
-1.  Client uploads an [image](http://www.imagecraft.cc/web/images/yotsuba_koiwai.gif) directly.
-2.  Server performs thumbnail and [text](http://www.imagecraft.cc/web/fonts/minecraftia.ttf) operations.
+1.  Client uploads an [image](https://cloud.githubusercontent.com/assets/5236124/9806422/4b4582dc-5812-11e5-9e85-8974e48dfdfd.gif) directly.
+2.  Server performs thumbnail and [text](https://drive.google.com/open?id=0B5ruhRHby-kbQmxKVDVEaEc3Zkk) operations.
 5.  Server returns a message in traditional Chinese if an error occured.
 
 ````php
@@ -113,7 +113,7 @@ if ($image->isValid()) {
 }
 ````
 
-![Classic Pattern Output](http://imagecraft.cc/web/images/classic_pattern.php)
+![Classic Pattern Output](https://cloud.githubusercontent.com/assets/5236124/9806424/4b485480-5812-11e5-818c-a2aa8b2c2c9d.gif)
 
 ### When Debugging is Easier than Expected
 
