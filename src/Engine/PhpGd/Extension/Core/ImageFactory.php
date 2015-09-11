@@ -9,6 +9,7 @@ use Imagecraft\Layer\TextLayerInterface;
 use Imagecraft\Layer\RegularLayerInterface;
 use Imagecraft\Engine\PhpGd\Helper\ResourceHelper;
 use Imagecraft\Image;
+use Imagecraft\Engine\PhpGd\PhpGdContext;
 
 /**
  * @author Xianghan Wang <coldume@gmail.com>
@@ -102,6 +103,8 @@ class ImageFactory
                 $layer->get('image.resize.option'),
                 true
             );
+        } elseif ($layer instanceof BackgroundLayerInterface && $layer->get('image.format') === PhpGdContext::FORMAT_PNG) {
+            $resource = $this->rh->getClonedGdResource($resource);
         }
 
         $layer->set('final.resource', $resource);
