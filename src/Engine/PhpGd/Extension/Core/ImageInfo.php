@@ -78,14 +78,14 @@ class ImageInfo
     {
         rewind($fp);
         $contents = fread($fp, 34);
-        if (preg_match('/(?s)\\ARIFF.{4}WEBPVP8(X|L)/', $contents, $matches)) {
+        if (preg_match('/(?s)\\ARIFF.{4}WEBPVP8(X|L)/s', $contents, $matches)) {
             $supported = $this->context->getSupportedImageFormatsToString();
             throw new InvalidImageException(
                 'unsupported.image.format.or.file.corrupted.%unsupported%.%supported%',
                 ['%unsupported%' => '"WEBP (VP8'.$matches[1].')"', '%supported%' => $supported]
             );
         }
-        $pattern = '/(?s)\\ARIFF.{4}WEBPVP8\\s.{10}(?<width>.{2})(?<height>.{2})/';
+        $pattern = '/(?s)\\ARIFF.{4}WEBPVP8\\s.{10}(?<width>.{2})(?<height>.{2})/s';
         if (preg_match($pattern, $contents, $matches)) {
             $width  = unpack('v', $matches['width'])[1];
             $height = unpack('v', $matches['height'])[1];
@@ -108,7 +108,7 @@ class ImageInfo
     {
         rewind($fp);
         $contents = fread($fp, 10);
-        if (preg_match('/(?s)\\AGIF8(7|9)a(?<width>.{2})(?<height>.{2})/', $contents, $matches)) {
+        if (preg_match('/(?s)\\AGIF8(7|9)a(?<width>.{2})(?<height>.{2})/s', $contents, $matches)) {
             $width  = unpack('v', $matches['width'])[1];
             $height = unpack('v', $matches['height'])[1];
 
@@ -131,7 +131,7 @@ class ImageInfo
         rewind($fp);
         $contents = fread($fp, 25);
         if (preg_match(
-            '/\\A\\x89PNG\\x0d\\x0a\\x1a\\x0a(?:.{4})IHDR(?<width>.{4})(?<height>.{4})/',
+            '/\\A\\x89PNG\\x0d\\x0a\\x1a\\x0a(?:.{4})IHDR(?<width>.{4})(?<height>.{4})/s',
             $contents,
             $matches
         )) {
